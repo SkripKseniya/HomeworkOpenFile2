@@ -39,7 +39,9 @@ items.insert(13, t3.name)
 with open('finaltetxt.txt', 'w', encoding='utf-8' ) as fileall:
     fileall.writelines("%s\n" % line for line in items)
 
-
+t1.close()
+t2.close()
+t3.close()
 
 
 
